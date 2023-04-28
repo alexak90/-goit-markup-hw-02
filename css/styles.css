@@ -145,9 +145,8 @@ body {
   text-transform: capitalize;
   color: var(--second-text-color);
 }
-,
 .employee {
-  background-color: #F4F4FD;
+  background-color: var(--third-backgrround-color);
 }
 .employee-title {
   font-size: 36px;
