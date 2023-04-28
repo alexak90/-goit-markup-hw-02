@@ -177,7 +177,7 @@ body {
 /* portfolio styles */
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  
+  color: #ffffff;
   background-color: #404bbf;
 }
 .portfolio-btn {
