@@ -72,19 +72,18 @@ body {
 }
 
 .header-address {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.1;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--primary-text-color);
 }
 
 .link-text {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -107,7 +106,7 @@ body {
 }
 .hero-button:hover,
 .hero-button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .hero-button {
@@ -141,12 +140,12 @@ body {
   color: var(--second-text-color);
 }
 ,
-employee {
+.employee {
   background-color: var(--third-backgrround-color);
 }
 .employee-title {
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
