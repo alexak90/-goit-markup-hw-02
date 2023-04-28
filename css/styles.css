@@ -186,7 +186,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--left-logo-color);
   background-color: var(--third-backgrround-color);
   cursor: pointer;
 }
