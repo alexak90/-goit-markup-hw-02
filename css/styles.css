@@ -63,6 +63,9 @@ body {
 .header-nav:hover {
   color: #404bbf;
 }
+.header-nav {
+  text-decoration: none;
+}
 .menu-item {
   font-weight: 500;
   font-size: 16px;
@@ -72,6 +75,7 @@ body {
 }
 
 .header-address {
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -110,12 +114,14 @@ body {
 }
 
 .hero-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: #ffffff;
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
+  cursor: pointer;
 }
 .title {
   font-style: normal;
@@ -141,7 +147,7 @@ body {
 }
 ,
 .employee {
-  background-color: var(--third-backgrround-color);
+  background-color: #F4F4FD;
 }
 .employee-title {
   font-size: 36px;
@@ -152,6 +158,9 @@ body {
   color: var(--second-text-color);
 }
 .employee-list {
+  background-color: var(--primary-background-color);
+}
+.employee-item {
   background-color: var(--primary-background-color);
 }
 .footer {
@@ -168,14 +177,16 @@ body {
 /* portfolio styles */
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  color: #ffffff;
+  
   background-color: #404bbf;
 }
 .portfolio-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  color: #ffffff;
   background-color: var(--third-backgrround-color);
   cursor: pointer;
 }
