@@ -145,9 +145,9 @@ body {
   text-transform: capitalize;
   color: var(--second-text-color);
 }
-.employee {
+/* .employee {
   background-color: var(--third-backgrround-color);
-}
+} */
 .employee-title {
   font-size: 36px;
   line-height: 1.11;
@@ -157,7 +157,7 @@ body {
   color: var(--second-text-color);
 }
 .employee-list {
-  background-color: var(--primary-background-color);
+  background-color: var(--third-backgrround-color);
 }
 .employee-item {
   background-color: var(--primary-background-color);
